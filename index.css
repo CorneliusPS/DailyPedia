@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@300;600&display=swap');
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 500px;
+    background: linear-gradient(112.56deg, #B8E1F7 11.77%, #74CEFF 98.29%);
+}
+
+.top-wrapper h1 {
+    position: relative;
+    width: 599px;
+    height: 231px;
+    top: -300px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    align-items: center;
+
+    color: #034698;
+}
+
+.top-wrapper img {
+    position: relative;
+    width: 30%;
+    left: 60%;
+    top: -460px;
+}
+
+.top-wrapper button {
+    position: relative;
+    width: 175px;
+    height: 40px;
+    top: -470px;
+    left: -338px;
+    background-color: #F8EF4C;
+    border-radius: 25.5px;
+    padding: 0;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    opacity: 0.8;
+    display: inline-block;
+
+}
+
+button:hover {
+    opacity: 1;
+}
+
+.header-center {
+    margin-left: 25%;
+}
+
+.header-right {
+    margin-left: 25%;
+}
+
+.content-wrapper .dailies h1 {
+    position: relative;
+    width: 378px;
+    height: 60px;
+    top: -420px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 97px;
+}
+
+.line1 {
+    position: relative;
+    width: 55%;
+    background-color: rgba(0, 166, 255, 0.2);
+    border: 0 none;
+    top: -450px;
+    left: 150px;
+    height: 3px;
+}
+
+#firstimg h1 {
+    position: relative;
+    width: 497px;
+    height: 30px;
+    left: 580px;
+    top: -550px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #505050;
+}
+
+#firstimg p {
+    position: relative;
+    width: 375px;
+    height: 30px;
+    left: 580px;
+    top: -450px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #707070;
+}
+
+#img1 {
+    position: relative;
+    top: -290px;
+    width: 450px;
+}
+
+#secondimg h1 {
+    position: relative;
+    width: 497px;
+    height: 30px;
+    top: -480px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #505050;
+}
+
+#secondimg p {
+    position: relative;
+    width: 375px;
+    height: 30px;
+    top: -450px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #707070;
+}
+
+#img2 {
+    position: relative;
+    top: -260px;
+    width: 450px;
+    left: 580px;
+}
+
+#thirdimg h1 {
+    position: relative;
+    width: 497px;
+    height: 30px;
+    left: 580px;
+    top: -500px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #505050;
+}
+
+#thirdimg p {
+    position: relative;
+    width: 375px;
+    height: 30px;
+    left: 580px;
+    top: -400px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #707070;
+}
+
+#img3 {
+    position: relative;
+    top: px;
+    width: 450px;
+    top: -200px;
+}
+
+.content-wrapper .works h1 {
+    position: relative;
+    width: 378px;
+    height: 60px;
+    top: -250px;
+    left: 600px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 97px;
+}
+
+.line2 {
+    position: relative;
+    width: 55%;
+    background-color: rgba(0, 166, 255, 0.2);
+    border: 0 none;
+    bottom: 280px;
+    right: 280px;
+    height: 3px;
+}
+
+.card-wrapper {
+    position: relative;
+    border-radius: 21px;
+    width: 811px;
+    height: 250px;
+    margin-bottom: 30px;
+    left: 60px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+.card-wrapper.card1 {
+    margin-top: -150px;
+    background: linear-gradient(280.67deg, #7AD6F4 -14.25%, #FFFFFF 127.02%);
+
+}
+
+.card-wrapper.card2 {
+    background: linear-gradient(275.65deg, #45BDEE 6.65%, rgba(255, 255, 255, 0.67) 128.13%);
+
+}
+
+.card-wrapper.card3 {
+    background: linear-gradient(278.17deg, #0C92D9 -2.59%, rgba(255, 255, 255, 0) 160.76%);
+
+}
+
+.card-wrapper.card4 {
+    background: linear-gradient(278.85deg, #0B8DED 4.06%, rgba(255, 255, 255, 0.32) 160.48%);
+    margin-bottom: 100px;
+}
+
+.card-wrapper.card5 {
+    position: relative;
+    top: -150px;
+    left: -27px;
+    background: #FFFFFF;
+    ;
+    height: 210px;
+    width: 1000px;
+}
+
+.card-wrapper h1 {
+    position: relative;
+    left: 80px;
+    top: 54px;
+    color: #505050;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.card-wrapper p {
+    position: relative;
+    top: 50px;
+    left: 80px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #505050;
+}
+
+.card-wrapper.card1 img {
+    position: relative;
+    left: 600px;
+    bottom: 183px;
+}
+
+.card-wrapper.card2 img {
+    position: relative;
+    left: 600px;
+    bottom: 160px;
+}
+
+.card-wrapper.card3 img {
+    position: relative;
+    left: 600px;
+    bottom: 160px;
+}
+
+.card-wrapper.card4 img {
+    position: relative;
+    left: 600px;
+    bottom: 160px;
+}
+
+.card-wrapper.card1 button {
+    position: relative;
+    width: 175px;
+    height: 40px;
+    left: 330px;
+    bottom: 50px;
+    background-color: #F8EF4C;
+    border-radius: 25.5px;
+    padding: 0;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2));
+    cursor: pointer;
+    opacity: 0.9;
+    display: inline-block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #303030;
+
+}
+
+.card-wrapper.card2 button {
+    position: relative;
+    width: 175px;
+    height: 40px;
+    left: 330px;
+    bottom: 27px;
+    background-color: #F8EF4C;
+    border-radius: 25.5px;
+    padding: 0;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2));
+    cursor: pointer;
+    opacity: 0.9;
+    display: inline-block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #303030;
+
+}
+
+.card-wrapper.card3 button {
+    position: relative;
+    width: 175px;
+    height: 40px;
+    left: 330px;
+    bottom: 27px;
+    background-color: #F8EF4C;
+    border-radius: 25.5px;
+    padding: 0;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2));
+    cursor: pointer;
+    opacity: 0.9;
+    display: inline-block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #303030;
+}
+
+.card-wrapper.card4 button {
+    position: relative;
+    width: 175px;
+    height: 40px;
+    left: 330px;
+    bottom: 27px;
+    background-color: #F8EF4C;
+    border-radius: 25.5px;
+    padding: 0;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.2));
+    cursor: pointer;
+    opacity: 0.9;
+    display: inline-block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #303030;
+
+}
+
+.card-wrapper button:hover {
+    opacity: 1;
+}
+
+.header-center .navbar-nav a.select {
+    background-color: seashell;
+    border-radius: 32px;
+
+}
+
+.header-right .navbar-nav a.login {
+    border-radius: 15px;
+    margin-left: -140px;
+    border: 1px solid #303030;
+    padding: 8px 20px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 210px;
+    left: 0px;
+    top: 0px;
+    margin-top: 210px;
+    margin-bottom: -420px;
+
+    background: linear-gradient(112.56deg, #B8E1F7 11.77%, #74CEFF 98.29%);
+}
+
+footer .footer-logo span {
+    position: relative;
+    top: -150px;
+    left: 330px;
+    color: white;
+    font-size: 40px;
+}
+
+footer .footer-logo img {
+    position: relative;
+    top: -163px;
+    left: 320px;
+}
+
+footer .footer-logo p {
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    left: 480px;
+    top: -187px;
+
+}
+
+footer .card5 img {
+    position: relative;
+    left: -45px;
+    top: -20px;
+    width: 270px;
+    height: 234px;
+}
+
+footer .card5 h1 {
+    position: relative;
+    left: 260px;
+    top: -180px;
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 45px;
+
+    color: #707070;
+
+}
+
+footer .card5 h1 span {
+    font-family: Merriweather;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 45px;
+
+    color: #00A6FF;
+
+
+}

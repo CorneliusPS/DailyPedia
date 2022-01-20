@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="assets/logo.png">
+        <title>Register Yourself Now!</title>
+        <link rel="stylesheet" href="register.css">
+        <link href="styling/fontawesome-free-5.15.1-web/css/fontawesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+        <div class="layer1">
+            <div class="banner1">
+                <p><a href="index.html" style="text-decoration: none; color: #505050;"><i class="fa fa-arrow-left" aria-hidden="true"></i> Back</a></p>
+                <br>
+                <h1>Create an Account!</h1>
+                <p>Register for free for further recommendations from us for your productivity!</p>
+                <br>
+                <p>Already have an account? <a href="register.html" style="text-decoration: none; color: #41609F;">Login</a></p>
+                
+                <div class="sso">
+                    
+                        <p><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i>
+                            Facebook</a></p>
+                        <p><a href=""><i class="fa fa-google"></i>Google</a></p>
+
+                </div>
+                
+                <br><br>
+
+                <hr id="line">
+            </div>
+            <br>
+            <div class="form">
+                <form action="">
+                    <label for="">Username: </label> <br>
+                    <input type="username" placeholder="Your Username..." required> <br>
+                    <br>
+                    <label for="">Email: </label> <br>
+                    <input type="email" placeholder="Example: productive@prdctv.com" required> <br>
+                    <br>
+                    
+                    <div class="grid">
+                        <div id="date">
+                            <label for="">Birth of Date: </label> <br>
+                            <input type="text" placeholder="MM/DD/YYYY" onfocus="(this.type='date')" onblur="(this.type='text')">
+                        </div>
+    
+                        <div id="gender">
+                            <label for="">Gender: </label> <br>
+                            <select name="gender" id="" required>
+                                <option value="">Select</option> 
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Attack Helicopter">Apache</option>
+                            </select>
+                        </div> 
+                    </div>
+                    <br>
+                    <label for="">Password (8 characters minimum): </label> <br>
+                    <input type="password" placeholder="Your Password..." required> <br>
+                    <br>
+                    <input type="checkbox">
+                    <label for="">I understand and agree with the <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></label>
+                    <br>
+                    <br>
+                    <input type="submit" value="Register"id="submit-btn">
+                </form>
+
+            </div>
+        </div>
+
+    </body>
+</html>

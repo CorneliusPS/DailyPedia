@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,300&display=swap');
+
+body{
+    margin: 0;
+}
+
+.layer{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    background: linear-gradient(112.56deg, #B8E1F7 11.77%, #74CEFF 98.29%);
+    width: 100%;
+    height: 40%;
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.layer img{
+    position: relative;
+    top: 120px;
+    left: 190px;
+    width: 177;
+}
+
+.layer h1,
+.layer p{
+    position: relative;
+    top: -150px;
+    left: 450px;
+    margin-right: 700px;
+}
+
+.layer h1{
+    font-weight: 600;
+    font-size: 36px;
+   
+}
+
+.layer p{
+    margin-top: -15px;
+    color: #505050;
+    font-size: 16px;
+}
+
+.layer input{
+    position: relative;
+    left: 190px;
+    top: -50px;
+
+    border: none;
+    border-radius: 25.5px;
+    width: 175px;
+    height: 40px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.content{
+    position: relative;
+    top: 300px;
+    margin: 5px 300px 10px 450px;
+    line-height: 30px;
+
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.content h3{
+    line-height: 0px;
+}
+
+.content a{
+    color: #909090;
+    text-decoration: none;
+}
+
+.recommend{
+    position: relative;
+    margin: 40px 250px;
+    top: 350px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+#readmore{
+    position: relative;
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300px;
+
+    top: -40px;
+    left: 900px;
+}
+
+.line{
+    position: relative;
+    background: black;
+    border: 2px solid black;
+    width: 70px;
+    top: -27px;
+    right: 80px;
+}
+
+#flex-container{
+    display: flex;
+}
+
+#flex-container img,
+#flex-container h3,
+#flex-container p{
+    text-align: left;
+    line-height: 10px;
+    margin: 10px;
+    padding: 0px 25px;
+}
+
+#flex-container a{
+    text-decoration: none;
+    color: black;
+}
+
+#flex-container p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+.line2{
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.review{
+
+    position: relative;
+    margin: 400px 350px 30px 350px;
+
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.review h3{
+    margin-bottom: 50px;
+}
+
+.user-rating{
+    display: flex;
+    margin: -30px 0 40px 0;
+}
+
+.user-star h1,
+.user-star span,
+.user-star p{
+    text-align: center;
+    margin: 0 20px 10px 0;
+}
+
+.user-star h1{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.checked {
+    color: orange;
+}
+
+.side {
+    float: left;
+    width: 15%;
+    margin-top:0px;
+  }
+  
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+ }
+  
+  /* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    margin-left: 20px;
+    height: 8px;
+}
+  
+  /* Individual bars */
+.bar-5 {border-radius: 4px; width: 60%; height: 8px; background-color: #4CAF50;}
+.bar-4 {border-radius: 4px; width: 30%; height: 8px; background-color: #2196F3;}
+.bar-3 {border-radius: 4px; width: 10%; height: 8px; background-color: #00bcd4;}
+.bar-2 {border-radius: 4px; width: 4%; height: 8px; background-color: #ff9800;}
+.bar-1 {border-radius: 4px; width: 15%; height: 8px; background-color: #f44336;}
+
+.user-review{
+    display: flex;
+}
+
+.user-star-detail{
+    display: flex;
+    margin: -20px 10px 0 0;
+}
+
+#date{
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.detail-review{
+    width: 100%;
+    position: relative;
+    margin: -25px 0 40px 10px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.detail-review p{
+    margin: -10px 0 20px 0;
+}

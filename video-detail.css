@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+
+}
+
+.layer{
+    position: absolute;
+    margin: 0;
+    top: 0;
+    background: linear-gradient(112.56deg, #B8E1F7 11.77%, #74CEFF 98.29%);
+    width: 100%;
+    height: 40%;
+}
+
+iframe{
+    position: relative;
+    margin-left: 173px;
+    margin-top: 170px;
+}
+
+.layer{
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.layer h1{
+    position: relative;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 40px;
+
+    margin-top: -380px;
+    margin-left: 800px;
+    margin-right: 200px;
+}
+
+.layer p{
+    position: relative;
+    margin-left: 800px;
+    margin-top: -15px;
+}
+
+.content{
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.content h3{
+    position: relative;
+    margin-left: 800px;
+    margin-top: 320px;
+    margin-right: 200px;
+}
+
+.content p{
+    position: relative;
+    margin-left: 800px;
+    margin-right: 200px;
+}
+
+.recommend{
+    position: relative;
+    margin: 200px 100px;
+    top: -100px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.recommend h1{
+    font-size: 24px;
+}
+
+.recommend a{
+
+    position: relative;
+    color: #505050;
+    font-size: 14px;
+    font-weight: 300px;
+
+    top: -40px;
+    left: 88%;
+}
+
+
+.flex-container{
+    display: flex;
+
+}
+
+.flex-container a{
+    text-decoration: none;
+}
+
+.flex-container a img,
+.flex-container a h3,
+.flex-container a p{
+    position: relative;
+    width: 244px;
+    top: 20px;
+    left: -250px;
+    margin: 0px 30px;
+    line-height: 30px;
+    color: #505050;
+    border-radius: 4px;
+}
+
+.flex-container a p{
+    font-weight: 300;
+}
+
+
+.line{
+    position: relative;
+    background: black;
+    border: 2px solid black;
+    width: 70px;
+    top: -23px;
+    right: 300px;
+}
+
+.line2{
+    position: relative;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.review{
+    position: relative;
+    margin: -300px 350px;
+
+    font-family: Poppins;
+    font-style: normal;
+}
+
+.review h3{
+    margin-bottom: 50px;
+}
+
+.user-rating{
+    display: flex;
+    margin: -30px 0 40px 0;
+}
+
+.user-star h1,
+.user-star span,
+.user-star p{
+    text-align: center;
+    margin: 0 20px 10px 0;
+}
+
+.user-star h1{
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.checked {
+    color: orange;
+}
+
+.side {
+    float: left;
+    width: 15%;
+    margin-top:0px;
+  }
+  
+.middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+ }
+  
+  /* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  /* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+    border-radius: 4px;
+    margin-left: 20px;
+    height: 8px;
+}
+  
+  /* Individual bars */
+.bar-5 {border-radius: 4px; width: 60%; height: 8px; background-color: #4CAF50;}
+.bar-4 {border-radius: 4px; width: 30%; height: 8px; background-color: #2196F3;}
+.bar-3 {border-radius: 4px; width: 10%; height: 8px; background-color: #00bcd4;}
+.bar-2 {border-radius: 4px; width: 4%; height: 8px; background-color: #ff9800;}
+.bar-1 {border-radius: 4px; width: 15%; height: 8px; background-color: #f44336;}
+
+.user-review{
+    display: flex;
+}
+
+.user-star-detail{
+    display: flex;
+    margin: -20px 10px 0 0;
+}
+
+#date{
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.detail-review{
+    width: 100%;
+    position: relative;
+    margin: -25px 0 40px 10px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.detail-review p{
+    margin: -10px 0 20px 0;
+}
